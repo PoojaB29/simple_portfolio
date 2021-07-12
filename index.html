@@ -219,7 +219,7 @@
         <input type="email" name="email" placeholder="email" class="box" required>
         <input type="text" name="subject" placeholder="subject" class="box" required>
         <textarea name="Message" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+        <button onclick="myFunction" type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
     </form>
 
 </div>
@@ -241,7 +241,11 @@
 
 <!-- custom js file link  -->
 <script src="script.js"></script>
-
+<script>
+function myFunction() {
+  alert("Your response is send successfully!");
+}
+</script>
 
 </body>
 </html>
