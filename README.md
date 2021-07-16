@@ -1,2 +1,2 @@
-# PoojaB29.github.io
-My Portfolio.
+# sample_portfolio
+Sample Portfolio site developed using html, css and javascript.
